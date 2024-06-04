@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="brahmastra.ico" type="image/x-icon">
+    <title>Exam Preparation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px; /* Added gap to create space between cards */
+            width: 80%;
+            margin-top: 50px; /* Added margin to separate heading from cards */
+        }
+        .card {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .card p {
+            color: #666;
+        }
+        .card a {
+            display: inline-block;
+            padding: 8px 16px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .card a:hover {
+            background-color: #0056b3;
+        }
+        h1 {
+            font-family: 'Bangers', cursive; /* Applying the funky font */
+            color: #4CAF50;
+            margin-top: 50px; /* Adjust as needed */
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Brahmastra</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Last 5 years</h2>
+            <p>Prepare with questions from the past 5 years.</p>
+            <a href="questions.html">Go to Questions</a>
+        </div>
+        <div class="card">
+            <h2>Topics</h2>
+            <p>Explore different topics to study.</p>
+            <a href="index.html">Go to Topics</a>
+        </div>
+        <div class="card">
+            <h2>Datesheet</h2>
+            <p>Check the exam dates and plan your preparation.</p>
+            <a href="datesheet.html">Go to Datesheet</a>
+        </div>
+        <div class="card">
+            <h2>Quantum</h2>
+            <p>Check Quantums and do your preparation well.</p>
+            <a href="Quantum.html">Go to Quantums</a>
+        </div>
+    </div>
+</body>
+</html>

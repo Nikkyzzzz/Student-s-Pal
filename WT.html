@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technologies Syllabus Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+        li.completed {
+        text-decoration: line-through;
+        color: #888;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Technologies Syllabus Tracker</h1>
+    <div id="syllabus">
+        <h2>Introduction</h2>
+        <ul>
+            <li><input type="checkbox" id="intro-web-dev-strategies"> Introduction and Web Development Strategies</li>
+            <li><input type="checkbox" id="history-web-internet"> History of Web and Internet</li>
+            <li><input type="checkbox" id="protocols-governing-web"> Protocols Governing Web</li>
+            <li><input type="checkbox" id="writing-web-projects"> Writing Web Projects</li>
+            <li><input type="checkbox" id="connecting-internet"> Connecting to Internet</li>
+            <li><input type="checkbox" id="internet-services-tools"> Introduction to Internet services and tools</li>
+            <li><input type="checkbox" id="client-server-computing"> Introduction to client-server computing</li>
+            <li><input type="checkbox" id="core-java-intro"> Core Java: Introduction</li>
+            <li><input type="checkbox" id="java-operators"> Operator</li>
+            <li><input type="checkbox" id="java-data-types"> Data type</li>
+            <li><input type="checkbox" id="java-variables"> Variable</li>
+            <li><input type="checkbox" id="java-arrays"> Arrays</li>
+            <li><input type="checkbox" id="java-methods-classes"> Methods & Classes</li>
+            <li><input type="checkbox" id="java-inheritance"> Inheritance</li>
+            <li><input type="checkbox" id="java-packages-interfaces"> Package and Interface</li>
+            <li><input type="checkbox" id="java-exception-handling"> Exception Handling</li>
+            <li><input type="checkbox" id="java-multithreading"> Multithread programming</li>
+            <li><input type="checkbox" id="java-io"> I/O</li>
+            <li><input type="checkbox" id="java-applet"> Java Applet</li>
+            <li><input type="checkbox" id="java-string-handling"> String handling</li>
+            <li><input type="checkbox" id="java-event-handling"> Event handling</li>
+            <li><input type="checkbox" id="intro-awt"> Introduction to AWT</li>
+            <li><input type="checkbox" id="awt-controls"> AWT controls</li>
+            <li><input type="checkbox" id="layout-managers"> Layout managers</li>
+        </ul>
+        
+        <h2>Web Page Designing</h2>
+        <ul>
+            <li><input type="checkbox" id="html-list"> HTML: List</li>
+            <li><input type="checkbox" id="html-table"> Table</li>
+            <li><input type="checkbox" id="html-images"> Images</li>
+            <li><input type="checkbox" id="html-frames"> Frames</li>
+            <li><input type="checkbox" id="html-forms"> Forms</li>
+            <li><input type="checkbox" id="css"> CSS</li>
+            <li><input type="checkbox" id="doctype-definition"> Document type definition</li>
+            <li><input type="checkbox" id="xml-dtd"> XML: DTD</li>
+            <li><input type="checkbox" id="xml-schemes"> XML schemes</li>
+            <li><input type="checkbox" id="xml-object-models"> Object Models</li>
+            <li><input type="checkbox" id="presenting-using-xml"> Presenting and using XML</li>
+            <li><input type="checkbox" id="xml-processors"> Using XML Processors: DOM and SAX</li>
+            <li><input type="checkbox" id="dynamic-html"> Dynamic HTML</li>
+        </ul>
+        
+        <h2>Scripting</h2>
+        <ul>
+            <li><input type="checkbox" id="js-introduction"> JavaScript: Introduction</li>
+            <li><input type="checkbox" id="js-documents"> Documents</li>
+            <li><input type="checkbox" id="js-forms"> Forms</li>
+            <li><input type="checkbox" id="js-statements"> Statements</li>
+            <li><input type="checkbox" id="js-functions"> Functions</li>
+            <li><input type="checkbox" id="js-objects"> Objects</li>
+            <li><input type="checkbox" id="intro-ajax"> Introduction to AJAX</li>
+            <li><input type="checkbox" id="networking"> Networking</li>
+            <li><input type="checkbox" id="internet-addressing"> Internet Addressing</li>
+            <li><input type="checkbox" id="inetaddress"> InetAddress</li>
+            <li><input type="checkbox" id="factory-methods"> Factory Methods</li>
+            <li><input type="checkbox" id="instance-methods"> Instance Methods</li>
+            <li><input type="checkbox" id="tcpip-client-sockets"> TCP/IP Client Sockets</li>
+            <li><input type="checkbox" id="url"> URL</li>
+            <li><input type="checkbox" id="url-connection"> URL Connection</li>
+            <li><input type="checkbox" id="tcpip-server-sockets"> TCP/IP Server Sockets</li>
+            <li><input type="checkbox" id="datagram"> Datagram</li>
+        </ul>
+        
+        <h2>Enterprise Java Bean</h2>
+        <ul>
+            <li><input type="checkbox" id="prepare-java-beans"> Preparing a Class to be a JavaBeans</li>
+            <li><input type="checkbox" id="creating-java-beans"> Creating a JavaBeans</li>
+            <li><input type="checkbox" id="java-beans-properties"> JavaBeans Properties</li>
+            <li><input type="checkbox" id="types-of-beans"> Types of beans</li>
+            <li><input type="checkbox" id="stateful-session-bean"> Stateful Session bean</li>
+            <li><input type="checkbox" id="stateless-session-bean"> Stateless Session bean</li>
+            <li><input type="checkbox" id="entity-bean"> Entity bean</li>
+        </ul>
+        <h2>Java Database Connectivity (JDBC)</h2>
+        <ul>
+            <li><input type="checkbox" id="merging-data"> Merging Data from Multiple Tables: Joining</li>
+            <li><input type="checkbox" id="manipulating-databases"> Manipulating Databases with JDBC</li>
+            <li><input type="checkbox" id="prepared-statements"> Prepared Statements</li>
+            <li><input type="checkbox" id="transaction-processing"> Transaction Processing</li>
+            <li><input type="checkbox" id="stored-procedures"> Stored Procedures</li>
+        </ul>
+        
+        <h2>Servlets</h2>
+        <ul>
+            <li><input type="checkbox" id="servlet-overview"> Servlet Overview and Architecture</li>
+            <li><input type="checkbox" id="interface-servlet"> Interface Servlet and the Servlet Life Cycle</li>
+            <li><input type="checkbox" id="handling-get"> Handling HTTP GET Requests</li>
+            <li><input type="checkbox" id="handling-post"> Handling HTTP POST Requests</li>
+            <li><input type="checkbox" id="redirecting-requests"> Redirecting Requests to Other Resources</li>
+            <li><input type="checkbox" id="session-tracking"> Session Tracking</li>
+            <li><input type="checkbox" id="cookies"> Cookies</li>
+            <li><input type="checkbox" id="session-tracking-httpsession"> Session Tracking with HttpSession</li>
+        </ul>
+        <h2>Java Server Pages (JSP)</h2>
+        <ul>
+            <li><input type="checkbox" id="jsp-introduction"> Introduction</li>
+            <li><input type="checkbox" id="jsp-overview"> Java Server Pages Overview</li>
+            <li><input type="checkbox" id="first-jsp-example"> A First Java Server Page Example</li>
+            <li><input type="checkbox" id="implicit-objects"> Implicit Objects</li>
+            <li><input type="checkbox" id="jsp-scripting"> Scripting</li>
+            <li><input type="checkbox" id="standard-actions"> Standard Actions</li>
+            <li><input type="checkbox" id="directives"> Directives</li>
+            <li><input type="checkbox" id="custom-tag-libraries"> Custom Tag Libraries</li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', () => {
+                    localStorage.setItem(checkbox.id, checkbox.checked);
+                    updateCompletion(checkbox);
+                });
+                checkbox.checked = localStorage.getItem(checkbox.id) === 'true';
+                updateCompletion(checkbox);
+            });
+
+            function updateCompletion(checkbox) {
+                if (checkbox.checked) {
+                    checkbox.parentElement.classList.add('completed');
+                } else {
+                    checkbox.parentElement.classList.remove('completed');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

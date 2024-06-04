@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="brahmastra.ico" type="image/x-icon">
+    <title>Machine Learning Syllabus Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+        li.completed {
+        text-decoration: line-through;
+        color: #888;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Machine Learning Syllabus Tracker</h1>
+    <div id="syllabus">
+        <h2>Introduction</h2>
+        <ul>
+            <li><input type="checkbox" id="learning"> Learning </li>
+            <li><input type="checkbox" id="well-defined"> Types of Learning</li>
+            <li><input type="checkbox" id="well-defined"> Well defined learning problems</li>
+            <li><input type="checkbox" id="designing"> Designing a Learning System</li>
+            <li><input type="checkbox" id="history"> History of ML</li>
+            <li><input type="checkbox" id="approaches"> Introduction of Machine Learning Approaches(Artificial Neural Network, Clustering, Reinforcement Learning, Decision
+                Tree Learning, Bayesian networks, Support Vector Machine, Genetic Algorithm)</li>
+            <li><input type="checkbox" id="issues"> Issues in Machine Learning and Data Science Vs Machine Learning</li>
+        </ul>
+        
+        <h2>Regression</h2>
+        <ul>
+            <li><input type="checkbox" id="linear-regression"> Linear Regression</li>
+            <li><input type="checkbox" id="logistic-regression"> Logistic Regression</li>
+        </ul>
+        <h2>Bayesian Learning</h2>
+        <ul>
+            <li><input type="checkbox" id="bayes-theorem"> Bayes theorem</li>
+            <li><input type="checkbox" id="concept-learning"> Concept learning</li>
+            <li><input type="checkbox" id="optimal-classifier"> Bayes Optimal Classifier</li>
+            <li><input type="checkbox" id="naive-bayes"> Naïve Bayes classifier</li>
+            <li><input type="checkbox" id="belief-networks"> Bayesian belief networks</li>
+            <li><input type="checkbox" id="em-algorithm"> EM algorithm</li>
+        </ul>
+        <h2>Support Vector Machine</h2>
+        <ul>
+            <li><input type="checkbox" id="svm-introduction"> Introduction</li>
+            <li><input type="checkbox" id="svm-types"> Types of support vector kernel(Linear
+                kernel, polynomial kernel,andGaussiankernel)</li>
+            <li><input type="checkbox" id="svm-hyperplane"> Hyperplane (Decision surface)</li>
+            <li><input type="checkbox" id="svm-properties"> Properties of SVM</li>
+            <li><input type="checkbox" id="svm-issues"> Issues in SVM</li>
+        </ul>
+        
+        <h2>Decision Tree Learning</h2>
+        <ul>
+            <li><input type="checkbox" id="dt-algorithm"> Decision tree learning algorithm</li>
+            <li><input type="checkbox" id="dt-inductive-bias"> Inductive bias</li>
+            <li><input type="checkbox" id="dt-inference"> Inductive inference with decision trees</li>
+            <li><input type="checkbox" id="dt-entropy"> Entropy and information theory</li>
+            <li><input type="checkbox" id="dt-info-gain"> Information gain</li>
+            <li><input type="checkbox" id="dt-id3"> ID-3 Algorithm</li>
+            <li><input type="checkbox" id="dt-issues"> Issues in Decision tree learning</li>
+        </ul>
+        
+        <h2>Instance-Based Learning</h2>
+        <ul>
+            <li><input type="checkbox" id="knn"> k-Nearest Neighbour Learning</li>
+            <li><input type="checkbox" id="lwr"> Locally Weighted Regression</li>
+            <li><input type="checkbox" id="rbf-networks"> Radial basis function networks</li>
+            <li><input type="checkbox" id="case-based"> Case-based learning</li>
+        </ul>
+        
+        <h2>Artificial Neural Networks</h2>
+        <ul>
+            <li><input type="checkbox" id="perceptron"> Perceptron’s</li>
+            <li><input type="checkbox" id="mlp"> Multilayer perceptron</li>
+            <li><input type="checkbox" id="gradient-descent"> Gradient descent and the Delta rule</li>
+            <li><input type="checkbox" id="ml-networks"> Multilayer networks</li>
+            <li><input type="checkbox" id="backpropagation"> Derivation of Backpropagation Algorithm</li>
+            <li><input type="checkbox" id="generalization"> Generalization</li>
+            <li><input type="checkbox" id="unsupervised"> Unsupervised Learning – SOM Algorithm and its variant</li>
+        </ul>
+        <h2>Deep Learning</h2>
+        <ul>
+            <li><input type="checkbox" id="dl-intro"> Introduction</li>
+            <li><input type="checkbox" id="cnn-concept"> Concept of convolutional neural network</li>
+            <li><input type="checkbox" id="cnn-layers"> Types of layers(Convolutional Layers , Activation function , pooling , fully connected)</li>
+            <li><input type="checkbox" id="cnn-convolution"> Concept of Convolution (1D and 2D) layers</li>
+            <li><input type="checkbox" id="cnn-training"> Training of network</li>
+            <li><input type="checkbox" id="cnn-case-study"> Case study of CNN for eg on Diabetic
+                Retinopathy, Building a smart speaker, Self-deriving car etc.</li>
+        </ul>
+        
+        <h2>Reinforcement Learning</h2>
+        <ul>
+            <li><input type="checkbox" id="rl-intro"> Introduction to Reinforcement Learning</li>
+            <li><input type="checkbox" id="rl-task"> Learning Task</li>
+            <li><input type="checkbox" id="rl-example"> Example of Reinforcement Learning in Practice</li>
+            <li><input type="checkbox" id="rl-models"> Learning Models for Reinforcement(Markov Decision process , Q Learning - Q Learning function, Q Learning Algorithm )</li>
+            <li><input type="checkbox" id="dq-learning"> Introduction to Deep Q Learning</li>
+            <li><input type="checkbox" id="dq-learning"> Application of Reinforcement Learning</li>
+            
+        </ul>
+        
+        <h2>Genetic Algorithms</h2>
+        <ul>
+            <li><input type="checkbox" id="ga-intro"> Introduction</li>
+            <li><input type="checkbox" id="ga-components"> Components</li>
+            <li><input type="checkbox" id="ga-cycle"> GA cycle of reproduction</li>
+            <li><input type="checkbox" id="crossover"> Crossover</li>
+            <li><input type="checkbox" id="mutation"> Mutation</li>
+            <li><input type="checkbox" id="gp"> Genetic Programming</li>
+            <li><input type="checkbox" id="models-evolution"> Models of Evolution and Learning</li>
+            <li><input type="checkbox" id="ga-applications"> Applications</li>
+        </ul>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', () => {
+                    localStorage.setItem(checkbox.id, checkbox.checked);
+                    updateCompletion(checkbox);
+                });
+                checkbox.checked = localStorage.getItem(checkbox.id) === 'true';
+                updateCompletion(checkbox);
+            });
+
+            function updateCompletion(checkbox) {
+                if (checkbox.checked) {
+                    checkbox.parentElement.classList.add('completed');
+                } else {
+                    checkbox.parentElement.classList.remove('completed');
+                }
+            }
+        });
+    </script>
+</body>
+</html>
