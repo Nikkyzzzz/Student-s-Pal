@@ -1,5 +1,5 @@
-https://nikkyzzzz.github.io/Brahmastra/
-# Brahmastra: The Ultimate Study Hub for AKTU 6th Semester Students
+
+# [BRAHMASRTA](https://nikkyzzzz.github.io/Brahmastra/): The Ultimate Study Hub for AKTU 6th Semester Students
 
 ## Introduction
 **Brahmastra** is a one-stop solution for AKTU 6th semester students to access essential study materials, including past exam questions, topic explorations, exam dates, quantum resources, and more. This website is tailored to streamline the study process and provide students with everything they need to excel in their exams.
