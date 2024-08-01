@@ -1,2 +1,2 @@
 # Brahmastra
-Aktu 3rd year complete stock
+Aktu 6th Semester
